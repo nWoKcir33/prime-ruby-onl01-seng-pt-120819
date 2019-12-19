@@ -18,3 +18,16 @@ end
 prime_number_array = [2,3,11,105557]
 not_prime_number_array = [-1,0,1,4,40,1763,101013]
 
+def prime?(number)
+  if number <= 1 
+    return false
+  end
+  number_list = (2..number-1).to_a
+  number_list.each do |x|
+    remainder = number % x
+    if remainder == 0
+      return false
+    end
+  end
+  return true
+end
