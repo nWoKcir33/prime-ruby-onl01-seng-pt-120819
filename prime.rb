@@ -15,3 +15,6 @@ def prime_2?(number)
   return true
 end
 
+prime_number_array = [2,3,11,105557]
+not_prime_number_array = [-1,0,1,4,40,1763,101013]
+
