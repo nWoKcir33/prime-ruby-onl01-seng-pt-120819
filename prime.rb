@@ -14,3 +14,4 @@ def prime_2?(number)
   end
   return true
 end
+
