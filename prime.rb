@@ -6,7 +6,6 @@ def prime_2?(number)
   idx= 2
   while idx < number
       remainder = number%idx
-      #puts "prime 1| number:#{number} divisor:#{idx}  remainder#{remainder}"
       if remainder == 0 || number == 2
           return false
       end
@@ -32,3 +31,4 @@ def prime?(number)
   return true
 end
 
+prime?(105557)
